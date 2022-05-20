@@ -17,8 +17,8 @@ with open(photo, 'rb') as source_image:
 
 client = boto3.client(
     'rekognition',
-    aws_access_key_id='AKIAXERT7VUTFE3MEDVN',
-    aws_secret_access_key='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',
+    aws_access_key_id='aws_access_key_id',
+    aws_secret_access_key='aws_secret_access_key',
     region_name='ap-southeast-1'
 )
 
